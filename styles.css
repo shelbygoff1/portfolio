@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  background-color: #480c72;
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.header {
+  background-color: #480c72;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.aboutheader {
+  background-color: gray;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.round {
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%
+}
+
+.nav-about {
+	background-color: purple;
+	border-top: 5px groove gray;
+	border-bottom: 5px groove gray;
+  border-left: 5px groove gray;
+  border-right: 5px groove gray;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+
+.nav-about a:hover {
+  background-color: #ff00e7;
+  color: white;
+  padding: inherit;
+}
+
+.nav-about a {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.nav-primary {
+	background-color: dodgerblue;
+	border-top: 5px dashed #000;
+	border-bottom: 5px dashed #000;
+	box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+	margin-bottom: 1px;
+}
+
+nav {
+text-align: center;
+margin: 20px 0 0 ;
+padding: 10px 0;
+}
+
+.spaceout {
+  font-weight: normal;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  color: white;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background-color: #ff00e7;
+}
+
+.aboutpage {
+  background-color: gray;
+}
+
+article {
+  border-style: groove;
+}
