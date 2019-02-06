@@ -24,12 +24,25 @@ img {
     max-width: 100%;
 }
 
+.box {
+  height: 800px;
+  width: 1000px;
+}
+
+.container {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
 .header {
   background-color: #480c72;
   text-align: center;
   padding: 20px;
   font-size: 20px;
-  font-family: monospace;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .aboutheader {
@@ -37,7 +50,7 @@ img {
   text-align: center;
   padding: 20px;
   font-size: 20px;
-  font-family: monospace;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .round {
@@ -63,7 +76,7 @@ img {
 }
 
 .nav-about a {
-  font-family: monospace;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 20px;
 }
 
@@ -86,6 +99,7 @@ padding: 10px 0;
   padding: 10px 30px;
   text-align: center;
   font-style: italic;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 a {
@@ -103,7 +117,7 @@ a:hover {
 .aboutpage {
   background-color: gray;
   font-style: oblique;
-  font-variant: small-caps;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 20px;
 }
 
@@ -117,7 +131,8 @@ a:hover {
 .shadow {
   text-shadow: 3px 3px 3px black;
   letter-spacing: 2px;
-  text-align: left;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 article {
