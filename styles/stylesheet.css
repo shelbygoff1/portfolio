@@ -131,10 +131,13 @@ a:hover {
 .shadow {
   text-shadow: 3px 3px 3px black;
   letter-spacing: 2px;
-  text-align: center;
   font-family: 'Fjalla One', sans-serif;
 }
 
 article {
   border-style: groove;
+}
+
+ul li {
+  list-style-type: none;
 }
