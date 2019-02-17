@@ -29,6 +29,29 @@ img {
   width: 1000px;
 }
 
+.index-box:nth-child(odd) {
+  color: silver;
+}
+
+.index-box:nth-child(even) {
+  color: gold;
+}
+
+figure img:hover {
+  text-transform: uppercase;
+  transform: rotateY(360deg);
+  transition-delay: 250ms;
+  -webkit-transition: all 4000ms ease-out;
+  -moz-transition: all 4000ms ease-out;
+  -o-transition: all 4000ms ease-out;
+  -ms-transition: all 4000ms ease-out;
+  transition: all 4000ms ease-out;
+}
+
+a.visit-header:visited {
+  color: black;
+}
+
 .container {
   height: 800px;
   display: flex;
@@ -111,7 +134,8 @@ footer {
 }
 
 a:hover {
-  background-color: #ff00e7;
+  background-color: silver;
+  color: black;
 }
 
 .aboutpage {
