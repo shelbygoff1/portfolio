@@ -48,10 +48,6 @@ figure img:hover {
   transition: all 4000ms ease-out;
 }
 
-a.visit-header:visited {
-  color: black;
-}
-
 .container {
   height: 800px;
   display: flex;
